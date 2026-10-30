@@ -1,0 +1,13 @@
+{
+  "name": "fitv",
+  "version": "0.1.0",
+  "description": "Generate Seedance 2.5 and Seedance 2.0 video and AI images on freeimagetovideo.ai from Gemini CLI, on your own API key.",
+  "mcpServers": {
+    "fitv": {
+      "command": "npx",
+      "args": ["-y", "fitv-mcp"],
+      "env": { "FITV_API_KEY": "$FITV_API_KEY" }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

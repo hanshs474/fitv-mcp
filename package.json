@@ -1,0 +1,51 @@
+{
+  "name": "fitv-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.hanshs474/fitv-mcp",
+  "description": "MCP server for Fitv (freeimagetovideo.ai): Free image to video AI with no daily cap: your first clip needs no sign-up, then a free account keeps going. Every video comes with sound and no watermark.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "image-to-video",
+    "ai-video-generator",
+    "fitv",
+    "freeimagetovideo"
+  ],
+  "homepage": "https://freeimagetovideo.ai",
+  "bugs": {
+    "url": "https://github.com/hanshs474/fitv-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanshs474/fitv-mcp.git"
+  },
+  "license": "MIT",
+  "author": "Fitv (https://freeimagetovideo.ai)",
+  "type": "module",
+  "bin": {
+    "fitv-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

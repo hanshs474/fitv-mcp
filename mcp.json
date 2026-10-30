@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "fitv": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "fitv-mcp"],
+      "env": { "FITV_API_KEY": "${FITV_API_KEY}" }
+    }
+  }
+}

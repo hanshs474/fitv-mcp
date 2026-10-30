@@ -1,0 +1,10 @@
+{
+  "name": "fitv",
+  "version": "0.1.0",
+  "description": "Generate Seedance 2.5 and Seedance 2.0 video and AI images on freeimagetovideo.ai from Claude Code, on your own API key.",
+  "author": { "name": "fitv", "url": "https://freeimagetovideo.ai/" },
+  "homepage": "https://freeimagetovideo.ai/?utm_source=claude-plugin&utm_medium=package",
+  "repository": "https://github.com/hanshs474/fitv-mcp",
+  "license": "MIT",
+  "keywords": ["ai", "video-generation", "seedance", "image-to-video", "mcp"]
+}

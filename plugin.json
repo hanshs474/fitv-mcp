@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fitv",
+  "version": "0.1.0",
+  "description": "Generate Seedance 2.5 and Seedance 2.0 video (text to video, image to video) and AI images on freeimagetovideo.ai, on your own API key.",
+  "author": { "name": "fitv", "url": "https://freeimagetovideo.ai/" },
+  "homepage": "https://freeimagetovideo.ai/?utm_source=agent-plugin&utm_medium=package",
+  "repository": "https://github.com/hanshs474/fitv-mcp",
+  "license": "MIT",
+  "keywords": ["ai", "video-generation", "seedance", "image-to-video", "mcp"]
+}

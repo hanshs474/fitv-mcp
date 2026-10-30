@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.hanshs474/fitv-mcp",
+  "description": "Generate Seedance 2.5 / 2.0 video and AI images on freeimagetovideo.ai from any MCP client.",
+  "repository": {
+    "url": "https://github.com/hanshs474/fitv-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://freeimagetovideo.ai/",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "fitv-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        { "name": "FITV_API_KEY", "description": "API key from https://freeimagetovideo.ai/settings/apikeys", "isRequired": true, "isSecret": true }
+      ]
+    }
+  ]
+}

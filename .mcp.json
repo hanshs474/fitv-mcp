@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fitv": {
+      "command": "npx",
+      "args": ["-y", "fitv-mcp"],
+      "env": { "FITV_API_KEY": "${FITV_API_KEY}" }
+    }
+  }
+}
